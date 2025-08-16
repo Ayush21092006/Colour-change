@@ -1,0 +1,63 @@
+#grey {
+    background-color: grey;
+    color: white;
+    display : inline-flex;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+#Red {
+    background-color: red;
+    color: white;
+    display : inline-flex;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+#Blue {
+    background-color: blue;
+    color: white;
+    display : inline-flex;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+#Black {
+    background-color: black;
+    color: white;
+    display : inline-flex;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+#Green {
+    background-color: green;
+    color: white;
+    display : inline-flex;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    background-color: transparent;
+   border-radius: 15px;
+   border: 1px solid black;
+   transition: background-color 5s ease;
+   justify-content: center;
+   display :flex;
+   /* gap : 5px; */
+   margin-top: 55px;
+   margin-left: 100px;
+   margin-right: 50px;
+}
+
+.button:hover {
+        opacity: 0.6;
+        font-size: 19px;
+}
